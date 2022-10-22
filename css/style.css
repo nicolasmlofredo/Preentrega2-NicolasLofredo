@@ -1,0 +1,82 @@
+/* fuentes de la pag */
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+
+/* titulo de la pag */
+h1 {
+    font-family: 'Nabla', cursive;
+    background-color: black;
+    margin: 0;
+    padding: 3% 0;
+    font-size: 80px;
+}
+/* menu */
+.nav-propia{
+    background-color: black;
+    
+}
+.enlace:hover,
+.logo:hover
+{
+    color: green;
+}
+.logo{
+    color:rgb(253,161, 59);
+    font-weight: bold;
+
+}
+.menu li a,
+.iconos,
+h2,
+h3,
+h5, 
+p{
+    color:rgb(253,161, 59)
+}
+
+/* video */
+.video {
+    background-color: black;
+
+}
+
+/* nosotros */
+aside{
+    background-color: black;
+}
+h2{
+    font-style: italic ;
+}
+p{
+    padding: 0 5%;
+    font-style: italic ;
+    margin: 0;
+    }
+    /* carrusel */
+
+    .destacados{
+        background-color: black;
+        padding: 5%;
+    }
+    /* footer */
+
+    footer{
+        background-color: black;
+
+    }
+    h6 {
+        color: #505050;
+        padding-top: 3%;
+    }
