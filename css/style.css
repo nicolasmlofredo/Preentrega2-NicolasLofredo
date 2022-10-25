@@ -16,12 +16,13 @@ a {
 /* titulo de la pag */
 h1 {
     font-family: 'Nabla', cursive;
+    font-size: 80px;
+}
+.titulo {
     background-color: black;
     margin: 0;
     padding: 3% 0;
-    font-size: 80px;
 }
-
 /* menu */
 .nav-propia{
     background-color: black;
