@@ -13,7 +13,6 @@ a {
     list-style: none;
   }
 
-
 /* titulo de la pag */
 h1 {
     font-family: 'Nabla', cursive;
@@ -22,16 +21,16 @@ h1 {
     padding: 3% 0;
     font-size: 80px;
 }
+
 /* menu */
 .nav-propia{
     background-color: black;
     
 }
-.enlace:hover,
-.logo:hover
-{
+.enlace:hover,.logo:hover{
     color: green;
 }
+
 .logo{
     color:rgb(253,161, 59);
     font-weight: bold;
@@ -74,9 +73,42 @@ p{
 
     footer{
         background-color: black;
+        padding-top: 5%;
 
     }
     h6 {
         color: #505050;
         padding-top: 3%;
     }
+    
+    /* pag. contacto */
+    form h2 {
+        font-size: 30px;
+        font-weight: 100;
+        
+    }
+    .formulario {
+        background-color: black;
+        color: white;
+    }
+
+    .enviar {
+        background-color: rgb(253,161, 59);
+        color: black;
+        border-color: black;
+        margin-top: 5px;
+    }
+    .enviar:hover {
+        color: rgb(253,161, 59);
+        background-color: black;
+        border: solid 1px rgb(253,161, 59);
+    }
+    /* pag. x4 articulos */
+    .productos {
+        background-color: black;
+        color: white;
+        
+    }
+
+
+        
